@@ -1,0 +1,19 @@
+/* Minimal custom styles only */
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.video-player-overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+}
+
+.focus-visible:focus {
+  outline: 2px solid #ef4444;
+  outline-offset: 2px;
+}
